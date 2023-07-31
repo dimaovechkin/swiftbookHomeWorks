@@ -27,8 +27,9 @@ if let firstNumber = Int("4"), let secondNumber =  Int("42"), firstNumber < seco
 
 //1
 var firstSring = "I can"
-var secondString = "code"
-print(firstSring + secondString)
+var secondString = "code!"
+
+print(firstSring + " " + secondString)
 //2
 var myAge = 28
 let myAgeitTenYears: Int = myAge+10
