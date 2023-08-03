@@ -31,8 +31,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEs-84-t7R">
-                                <rect key="frame" x="71.666666666666686" y="737.66666666666663" width="250" height="34.333333333333371"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEs-84-t7R">
+                                <rect key="frame" x="71.666666666666686" y="749" width="250" height="34.333333333333371"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="K6m-cu-Qae"/>
@@ -48,6 +48,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AEs-84-t7R" secondAttribute="trailing" constant="71.329999999999998" id="MGK-YD-fLZ"/>
+                            <constraint firstItem="AEs-84-t7R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71.670000000000002" id="awr-kg-ogn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AEs-84-t7R" secondAttribute="bottom" constant="34.670000000000002" id="hEc-q4-rF2"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="AEs-84-t7R" id="UYv-Y9-YYR"/>
